@@ -167,7 +167,7 @@ Extensions include common package via Composer path repositories:
         }
     ],
     "require": {
-        "matesofmate/common": "^0.1"
+        "matesofmate/common": "^0.1@dev"
     }
 }
 ```
