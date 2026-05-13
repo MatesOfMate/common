@@ -13,7 +13,7 @@ use Rector\Config\RectorConfig;
 use Rector\PHPUnit\Set\PHPUnitSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
-use Rector\TypeDeclaration\Rector\StmtsAwareInterface\DeclareStrictTypesRector;
+use Rector\TypeDeclaration\Rector\StmtsAwareInterface\SafeDeclareStrictTypesRector;
 
 return RectorConfig::configure()
     ->withPaths([
@@ -23,7 +23,7 @@ return RectorConfig::configure()
     ->withoutParallel()
     ->withSkip([
         __DIR__.'/vendor',
-        DeclareStrictTypesRector::class,
+        SafeDeclareStrictTypesRector::class,
     ])
     ->withSets([
         LevelSetList::UP_TO_PHP_82,
