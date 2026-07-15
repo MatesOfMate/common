@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+0.4.0
+-----
+
+ * Move development branch to 0.4.x-dev for the 0.11 release line
+
+0.3.0
+-----
+
+ * Stabilize dependency constraints for the 0.3 release line
+ * Stop tracking composer.lock for the library package
+
 0.1.0
 -----
 
