@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.6.0
+-----
+
+ * Move development branch to 0.6.x-dev for the 0.12 release line
+
 0.4.0
 -----
 
