@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.7.0
+-----
+
+ * Move development branch to 0.7.x-dev for the 0.13 release line
+
 0.6.0
 -----
 

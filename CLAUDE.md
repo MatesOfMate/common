@@ -167,14 +167,14 @@ Extensions include common package via Composer path repositories:
         }
     ],
     "require": {
-        "matesofmate/common": "^0.1@dev"
+        "matesofmate/common": "^0.6 || ^0.7@dev"
     }
 }
 ```
 
 Service registration in extensions:
 ```php
-// config/services.php
+// config/config.php
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $container): void {
